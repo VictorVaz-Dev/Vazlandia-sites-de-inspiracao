@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    z-index: 100%;
+    padding: 30px 100px;
+    top: 0;
+    left: 0;
+}
+
+#cabecalho nav{
+    border-radius: 20px;
+}
+
+
+#cabecalho ul{
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
