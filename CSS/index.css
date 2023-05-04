@@ -6,10 +6,17 @@
 
 a{
     text-decoration: none;
+    color: darkslateblue;
 }
 
 body{
     min-height: 100vh;
+}
+
+button{
+    border-radius: 20px;
+    color: yellow;
+    background-color: darkslateblue;
 }
 
 #cabecalho {
