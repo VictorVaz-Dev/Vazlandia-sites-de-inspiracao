@@ -1,25 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
+@import url('../FONTS/Poppins-Thin.ttf');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
-h1{
-    color: darkslateblue;
-    font-weight: bold;
-}
 
 a{
     text-decoration: none;
     color: darkslateblue;
     border-radius: 20px;
     font-size: large;
+    padding: 7px 15px;
+}
+
+h1{
+    color: darkslateblue;
 }
 
 body{
+    overflow-x: hidden;
     min-height: 100vh;
 }
 
@@ -39,16 +42,12 @@ a:hover, a.active{
 
 #cabecalho {
     display: flex;
-    font-weight: bold;
     position: absolute;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-    z-index: 100%;
     padding: 30px 100px;
-    top: 0;
-    left: 0;
 }
-
 
 #cabecalho nav{
     display: flex;
@@ -56,8 +55,34 @@ a:hover, a.active{
     align-items: center;
 }
 
+
 #cabecalho ul{
-    display: inline;
-    padding: 15px;
-    margin: 5px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    list-style: none;
+}
+
+
+.titulo-site{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-site h2{
+    color: darkslateblue;
+    position: absolute;
+}
+
+.titulo-site img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    align-items: center;
 }
