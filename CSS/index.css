@@ -55,7 +55,7 @@ header{
     height: 100vh;
 }
 
-#texto-principal{
+#titulo-principal{
     position: absolute;
     font-size: 5em;
     color: white;
@@ -69,3 +69,13 @@ header{
     width: 100%;
     pointer-events: none;
 }
+
+.sec-principal{
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+}
+
+
+
+    
