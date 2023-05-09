@@ -8,81 +8,64 @@
     font-family:'Poppins', sans-serif;
 }
 
-
-a{
-    text-decoration: none;
-    color: darkslateblue;
-    border-radius: 20px;
-    font-size: large;
-    padding: 7px 15px;
-}
-
-h1{
-    color: darkslateblue;
-}
-
 body{
-    overflow-x: hidden;
+    background: white;
     min-height: 100vh;
+    overflow: hidden;
 }
 
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
 
-button{
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
     border-radius: 20px;
-    background-color: white;
-    border: 1px solid darkslateblue;
-    color: darkslateblue;
-
+    margin: 0 10px;
+    font-weight: 600;
 }
 
-a:hover, a.active{
-    background-color: darkslateblue;
+.navegacao a:hover, 
+.navegacao a.active {
+    background-color: #359381;
     color: white;
 }
 
-#cabecalho {
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 30px 100px;
-}
-
-#cabecalho nav{
+.parallax{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-#cabecalho ul{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 25vw;
-    list-style: none;
-}
-
-
-.titulo-site{
-    width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.titulo-site h2{
-    color: darkslateblue;
+#texto-principal{
     position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 1);
 }
 
-.titulo-site img{
+.parallax img{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     pointer-events: none;
-    align-items: center;
 }
