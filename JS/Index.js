@@ -1,4 +1,4 @@
-let text = document.getElementById('text');
+let titulo = document.getElementById('titulo');
 let folha = document.getElementById('folha');
 let colina1 = document.getElementById('colina1');
 let colina4 = document.getElementById('colina4');
@@ -7,7 +7,7 @@ let colina5 = document.getElementById('colina5');
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
-    text.style.margintop = value * 2.5 + 'px';
+    titulo.style.marginTop = value * 2.5 + 'px';
     folha.style.top = value * -1.5 + 'px'
     folha.style.left = value * 1.5 + 'px'
     colina5.style.left = value * 1.5 + 'px'
