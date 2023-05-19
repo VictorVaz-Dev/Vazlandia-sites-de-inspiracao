@@ -1,2 +1,2 @@
 # Vazlandia-
-Site utilizado para colocar meus conhecimentos de HTML, CSS e Javascript, posteriormente vou conectar com banco de dados 
+Neste Repositório eu coloquei três sites do qual eu estudei e utilizei os conhecimentos adquiridos para a construção do meus sites com o efeito parallax aplicado.
