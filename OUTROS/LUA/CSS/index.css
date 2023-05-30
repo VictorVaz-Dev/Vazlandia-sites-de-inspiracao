@@ -80,6 +80,7 @@ section{
     top: 0;
     left: 0;
     z-index: 1;
+    width: 100%;
 }
 
 .paralllax img#lua{
@@ -103,7 +104,7 @@ section{
 }
 
 .sec-principal{
-    margin-top: -22vh;
+    margin-top: -28vh;
     padding: 6vh 200px 0vh 200px;
     height: 65vh;
     color: white;
