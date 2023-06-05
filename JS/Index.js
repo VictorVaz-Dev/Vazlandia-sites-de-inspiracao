@@ -8,11 +8,11 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
     titulo.style.marginTop = value * 2.5 + 'px';
-    folha.style.top = value * -1.5 + 'px'
-    folha.style.left = value * 1.5 + 'px'
-    colina5.style.left = value * 1.5 + 'px'
-    colina4.style.left = value * -1.5 + 'px'
-    colina1.style.top = value * 1.5 + 'px'
-})
+    folha.style.top = value * -1.5 + 'px';
+    folha.style.left = value * 1.5 + 'px';
+    colina5.style.left = value * 1.5 + 'px';
+    colina4.style.left = value * -1.5 + 'px';
+    colina1.style.top = value * 1.5 + 'px';
+});
 
 

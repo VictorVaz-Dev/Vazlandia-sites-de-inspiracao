@@ -69,6 +69,7 @@ header{
     transform: scale(1);
     opacity: 1; 
 }
+
 .parallax{
     position: relative;
     display: flex;
