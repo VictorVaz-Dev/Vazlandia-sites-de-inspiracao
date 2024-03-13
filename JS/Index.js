@@ -14,5 +14,3 @@ window.addEventListener('scroll', () => {
     colina4.style.left = value * -1.5 + 'px';
     colina1.style.top = value * 1.5 + 'px';
 });
-
-
