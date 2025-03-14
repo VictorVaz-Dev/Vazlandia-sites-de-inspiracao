@@ -104,6 +104,7 @@ header{
 }
 
 .sec-principal{
+    margin-top: -50px;
     position: absolute;
     background-color: #020912;
     color: white;

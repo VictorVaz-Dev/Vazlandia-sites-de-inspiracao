@@ -108,6 +108,7 @@ header{
 }
 
 .sec-principal p{
+    margin-top: -50px;
     font-size: 1em;
     color: white;
     font-weight: 300;
